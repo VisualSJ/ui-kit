@@ -64,18 +64,15 @@
     border: 0;
     margin: 0;
     flex: 1;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: transparent;
     color: @color-input;
 
     pointer-events: auto;
-    user-select: auto;
+    //user-select: auto;
     cursor: auto;
-    border-right: 0px;
 }
 
 #hint {
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: #535353;
     border-radius: 1px;
     font-size: 9px;
@@ -83,7 +80,7 @@
     color: #d1d1d1;
     cursor: ew-resize;
     margin-right: 4px;
-    padding: 0px 5px;
+    padding: 0 5px;
 }
 
 #input::selection {
@@ -147,11 +144,10 @@
     display: flex;
     justify-content: center;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 1px;
     text-align: center;
     background-color: #474747;
     box-shadow: 0 0 0 1px rgba(255,255,255,0.1) inset;
-    padding-left: 1px;
     border-top: 1px solid #000;
     cursor: pointer;
 }

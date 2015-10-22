@@ -8,9 +8,8 @@
     vertical-align: baseline;
     line-height: 1;
     margin: 0 .125em;
-    background-color: #e8e8e8;
+    background: #e8e8e8;
     border-color: #e8e8e8;
-    background-image: none;
     position: relative;
     color: rgba(0,0,0,.6);
     text-transform: none;
@@ -98,23 +97,19 @@
     height: .6em;
     -webkit-transition: background .2s ease;
     transition: background .2s ease;
-    background-color: #e8e8e8;
-    background-image: none;
+    background: #e8e8e8;
     margin-left: -.3em;
     top: -.2em;
     left: 50%;
 }
 
 :host.left .bg::before {
-    margin: 0;
-    margin-top: .7em;
-    margin-left: -0.3em;
+    margin: 0.7em 0 0 -0.3em;
     left: 0;
 }
 
 :host.left .bg {
-    margin: 0;
-    margin-left: 1em;
+    margin: 0 0 0 1em;
 }
 
 :host.right .bg::before {
@@ -125,8 +120,7 @@
 }
 
 :host.right .bg {
-    margin: 0;
-    margin-right: 1em;
+    margin: 0 1em 0 0;
 }
 
 
@@ -139,8 +133,7 @@
 }
 
 :host.bottom .bg {
-    margin: 0;
-    margin-bottom: 1em;
+    margin: 0 0 1em 0;
 }
 
 
